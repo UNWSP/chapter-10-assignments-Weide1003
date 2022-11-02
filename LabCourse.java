@@ -3,8 +3,7 @@ public LabCourse(String dept, int id, double credits) {
 super(dept, id, credits);
 }
 
-// display method
-@Override
+
 public void display() {
 System.out.println(dept + id);
 System.out.println("Lab course");
